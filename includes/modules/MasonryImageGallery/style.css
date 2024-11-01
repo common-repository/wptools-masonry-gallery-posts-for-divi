@@ -1,0 +1,42 @@
+.wpt-masonry-hidden {
+	display: none;
+}
+.masonry-grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.masonry-grid-item {
+	float: left;
+	overflow: hidden;
+	color: inherit;
+	border-style: solid;
+}
+
+.masonry-grid-item img {
+	display: block;
+	width: 100%;
+}
+
+.wpt-masonry .mfp-arrow-right {
+	right: 0 !important;
+}
+
+.wpt-masonry .masonry-grid-item .masonry-item-overlay {
+	position: absolute;
+	height: 0;
+	display: none;
+}
+
+.wpt-masonry .masonry-grid-item:hover .masonry-item-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 9999999;
+	top: 0;
+	display: flex;
+	align-content: space-around;
+	flex-wrap: wrap;
+	justify-content: center;
+}

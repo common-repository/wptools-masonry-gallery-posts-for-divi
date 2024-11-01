@@ -1,0 +1,6 @@
+.wpt-masonry .item-meta {
+	display: block;
+}
+.wpt-masonry .item-meta span{
+	display: inline-block;
+}

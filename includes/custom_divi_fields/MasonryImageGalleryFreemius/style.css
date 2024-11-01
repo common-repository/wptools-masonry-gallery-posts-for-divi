@@ -1,0 +1,9 @@
+div.et-fb-option--wpdt-masonry_image_gallery_fs .et-fb-modal__support-notice
+{
+	text-align: justify !important;
+}
+
+div.et-fb-option--wpdt-masonry_image_gallery_fs .et-fb-modal__support-notice a {
+	border-bottom: 1px dotted white;
+	padding-botton:  3px;
+}
